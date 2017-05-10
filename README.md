@@ -3,7 +3,7 @@
 ## Created by: Team Erudite
 
 ---
-# Section 1 - Basic Info
+## Section 1 - Basic Info
 ---
 
 ## Description:
