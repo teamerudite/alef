@@ -3,6 +3,8 @@
 ## Created by: Team Erudite
 
 ---
+# Section 1 - Basic Info
+---
 
 ## Description:
 
@@ -14,13 +16,17 @@
 
 #### Installing Alef is extremely simple, just paste the following code into the head section of your HTML file.
 
-```<script type="text/javascript" src="https://raw.githubusercontent.com/teamerudite/alef/master/alef.js"></script>```
+```
+<script type="text/javascript" src="https://raw.githubusercontent.com/teamerudite/alef/master/alef.js">
+   alef("test");
+</script>
+```
 
 ---
 
 ## Testing Alef:
 
-#### In order to test Alef's functionality, add the following ASC(Alef ShortCode) to your JS file or your inline script.
+#### In order to test Alef's functionality, add the following ASC(Alef ShortCode) to your JS file or your inline JS script.
 
 ```alef("test");```
 
