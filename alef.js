@@ -1,9 +1,2 @@
-// alef.js - Created by Team Erudite.
-
-'use strict';
-
-function alef(commandIn, b, c) {
-  var commandSplit = commandIn.split(">");
-  null!==commandSplit[0]&&(commandSplit[0],"help"===commandSplit[0]&&console.log("Need help? Don't worry! You can read the help text here: 'github.com/teamerudite/alef/blob/master/HELP.md'"),commandSplit[0],"test"===commandSplit[0]&&console.log("Yes! alef.js is working properly."),commandSplit[0],"log"===commandSplit[0]&&console.log(commandSplit[b]),commandSplit[0],"pop"===commandSplit[0]&&alert(commandSplit[b]),"script"===commandSplit[0]&&(document.head.innerHTML=document.head.innerHTML+'<script type="text/javascript" src="'+b+'"></script>'),"style"===commandSplit[0]&&(document.head.innerHTML=document.head.innerHTML+'<style type="text/css" src="'+b+'"></style>'));
-  
-}
+// alef.js - Package 1 - Created by Team Erudite.
+"use strict";function alef(e,t,o){var l=e.split(">");null!==l[0]&&(l[0],"help"===l[0]&&console.log("Need help? Don't worry! You can read the help text here: 'github.com/teamerudite/alef/blob/master/HELP.md'"),l[0],"test"===l[0]&&console.log("Yes! alef.js is working properly."),l[0],"log"===l[0]&&console.log(l[t]),l[0],"pop"===l[0]&&alert(l[t]),"script"===l[0]&&(document.head.innerHTML=document.head.innerHTML+'<script type="text/javascript" src="'+t+'"></script>'),"style"===l[0]&&(document.head.innerHTML=document.head.innerHTML+'<style type="text/css" src="'+t+'"></style>'))}
